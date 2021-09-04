@@ -1,0 +1,1 @@
+docker stack deploy -c docker/app.docker-compose.yaml my-app

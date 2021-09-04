@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  my-app:
+    image: "my-app"
+    environment:
+      - MESSAGE="Hello Swarm"
+    ports:
+      - "8080:8080"

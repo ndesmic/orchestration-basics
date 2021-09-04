@@ -1,0 +1,1 @@
+ kubectl port-forward service/my-app-service 8080:8080

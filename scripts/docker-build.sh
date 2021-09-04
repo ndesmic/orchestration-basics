@@ -1,0 +1,1 @@
+docker build -f docker/app.dockerfile -t my-app .

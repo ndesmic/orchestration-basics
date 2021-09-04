@@ -1,0 +1,23 @@
+{
+  "name": "k8s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sh ./scripts/start.sh",
+    "docker:build": "sh ./scripts/docker-build.sh",
+    "docker:start": "sh ./scripts/docker-start.sh",
+    "docker:clean": "sh ./scripts/docker-clean.sh",
+    "docker:restart": "sh ./scripts/docker-build.sh && sh ./scripts/docker-start.sh",
+    "kind:init": "sh ./scripts/kind-init.sh",
+    "kind:delete": "sh ./scripts/kind-delete.sh",
+    "minikube:init": "sh ./scripts/minikube-init.sh",
+    "minikube:delete": "sh ./scripts/minikube-delete.sh",
+    "k8s:deploy": "sh ./scripts/k8s-deploy.sh",
+    "k8s:expose": "sh ./scripts/k8s-expose.sh",
+    "swarm:deploy": "sh ./scripts/swarm-deploy.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
